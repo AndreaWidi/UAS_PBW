@@ -63,7 +63,7 @@ Buka browser ke: **http://localhost:8000**
 
 ---
 
-## 📁 Struktur File yang Perlu Disalin
+## 📁 Struktur File
 
 ```
 app/
