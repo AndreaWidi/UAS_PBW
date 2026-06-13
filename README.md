@@ -1,12 +1,12 @@
-☕ BrewHouse Aplikasi Web Pemesanan Kopi
+*☕ BrewHouse Aplikasi Web Pemesanan Kopi
 
 Aplikasi web pemesanan kopi berbasis Laravel dengan fitur manajemen menu, pemesanan online, dashboard admin, dan autentikasi pengguna.
 
-📋 Deskripsi Aplikasi
+**📋 Deskripsi Aplikasi
 
 BrewHouse adalah aplikasi web sistem pemesanan kopi yang dibangun menggunakan framework Laravel. Aplikasi ini memungkinkan pelanggan untuk melihat menu kopi, memesan secara online, dan melacak status pesanan mereka. Admin dapat mengelola menu, memantau pesanan masuk, dan mengatur pengguna melalui dashboard khusus.
 
-Fitur Utama
+**Fitur Utama
 
 	•	🔐 Autentikasi — Login & Register dengan validasi input dan role-based access (Admin & Customer)
 	•	☕ Katalog Menu — Menampilkan menu kopi panas, dingin, dan non-kopi dengan deskripsi dan harga
@@ -17,14 +17,14 @@ Fitur Utama
 	•	🔄 Kelola Pesanan — Admin dapat mengubah status pesanan secara real-time
 	•	👥 Kelola Pengguna — Admin dapat melihat dan menghapus pengguna
 
-Teknologi yang Digunakan
+**Teknologi yang Digunakan
 
 	•	Backend — Laravel 12 (PHP 8.2)
 	•	Database — MySQL
 	•	Frontend — Blade Template Engine, HTML, CSS, JavaScript
 	•	Tools — Composer, XAMPP, phpMyAdmin
 
-🗄 Relasi Database
+**🗄 Relasi Database
 
 users ──┐
         ├──< orders ──< order_items >── menus
@@ -34,7 +34,7 @@ users ──┐
 	•	orders hasMany order_items
 	•	order_items belongsTo menu
 
-🚀 Cara Menjalankan di Lokal
+**🚀 Cara Menjalankan di Lokal
 
 Prasyarat
 
@@ -43,25 +43,21 @@ Prasyarat
 	•	MySQL / MariaDB (atau XAMPP/Laragon)
 	•	Node.js (opsional)
 
-Langkah Instalasi
+**Langkah Instalasi
 
 1. Buat Project Laravel Baru
 
 composer create-project laravel/laravel brewhouse
 cd brewhouse
 
-
-2. Copy Semua File ke Folder Project
-Salin semua file dari repository ini ke folder project Laravel sesuai strukturnya.
-
-3. Daftarkan Middleware di bootstrap/app.php
+2. Daftarkan Middleware di bootstrap/app.php
 
 $middleware->alias([
     'is_admin' => \App\Http\Middleware\IsAdmin::class,
 ]);
 
 
-4. Konfigurasi .env
+3. Konfigurasi .env
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -71,10 +67,10 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 
-5. Buat Database
+4. Buat Database
 Buat database bernama brewhouse di phpMyAdmin atau MySQL.
 
-6. Import Database (Pilih salah satu)
+5. Import Database (Pilih salah satu)
 
 Menggunakan file SQL:
 
@@ -87,14 +83,14 @@ php artisan migrate
 php artisan db:seed
 
 
-7. Jalankan Server
+6. Jalankan Server
 
 php artisan serve
 
 
 Buka browser ke http://localhost:8000
 
-🔑 Akun Demo
+**🔑 Akun Demo
 
 
 
@@ -103,7 +99,7 @@ Buka browser ke http://localhost:8000
 |Admin   |[admin@brew.com](mailto:admin@brew.com)|admin123|
 |Customer|[user@brew.com](mailto:user@brew.com)  |user123 |
 
-📁 Struktur File
+**📁 Struktur File
 
 app/
 ├── Http/
@@ -150,6 +146,6 @@ routes/
 └── web.php
 
 
-👨‍💻 Dibuat Dengan
+**👨‍💻 Dibuat Dengan
 
 Laravel Framework • MySQL • Blade Template • PHP 8.2
