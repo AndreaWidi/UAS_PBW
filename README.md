@@ -1,12 +1,12 @@
-*☕ BrewHouse Aplikasi Web Pemesanan Kopi
+**☕ BrewHouse Aplikasi Web Pemesanan Kopi**
 
 Aplikasi web pemesanan kopi berbasis Laravel dengan fitur manajemen menu, pemesanan online, dashboard admin, dan autentikasi pengguna.
 
-**📋 Deskripsi Aplikasi
+**📋 Deskripsi Aplikasi**
 
 BrewHouse adalah aplikasi web sistem pemesanan kopi yang dibangun menggunakan framework Laravel. Aplikasi ini memungkinkan pelanggan untuk melihat menu kopi, memesan secara online, dan melacak status pesanan mereka. Admin dapat mengelola menu, memantau pesanan masuk, dan mengatur pengguna melalui dashboard khusus.
 
-**Fitur Utama
+**Fitur Utama**
 
 	•	🔐 Autentikasi — Login & Register dengan validasi input dan role-based access (Admin & Customer)
 	•	☕ Katalog Menu — Menampilkan menu kopi panas, dingin, dan non-kopi dengan deskripsi dan harga
@@ -17,14 +17,14 @@ BrewHouse adalah aplikasi web sistem pemesanan kopi yang dibangun menggunakan fr
 	•	🔄 Kelola Pesanan — Admin dapat mengubah status pesanan secara real-time
 	•	👥 Kelola Pengguna — Admin dapat melihat dan menghapus pengguna
 
-**Teknologi yang Digunakan
+**Teknologi yang Digunakan**
 
 	•	Backend — Laravel 12 (PHP 8.2)
 	•	Database — MySQL
 	•	Frontend — Blade Template Engine, HTML, CSS, JavaScript
 	•	Tools — Composer, XAMPP, phpMyAdmin
 
-**🗄 Relasi Database
+**🗄 Relasi Database**
 
 users ──┐
         ├──< orders ──< order_items >── menus
@@ -34,8 +34,7 @@ users ──┐
 	•	orders hasMany order_items
 	•	order_items belongsTo menu
 
-**🚀 Cara Menjalankan di Lokal
-
+**🚀 Cara Menjalankan di Lokal**
 Prasyarat
 
 	•	PHP >= 8.1
@@ -43,7 +42,7 @@ Prasyarat
 	•	MySQL / MariaDB (atau XAMPP/Laragon)
 	•	Node.js (opsional)
 
-**Langkah Instalasi
+Langkah Instalasi
 
 1. Buat Project Laravel Baru
 
@@ -90,16 +89,14 @@ php artisan serve
 
 Buka browser ke http://localhost:8000
 
-**🔑 Akun Demo
-
-
+**🔑 Akun Demo**
 
 |Role    |Email                                  |Password|
 |--------|---------------------------------------|--------|
 |Admin   |[admin@brew.com](mailto:admin@brew.com)|admin123|
 |Customer|[user@brew.com](mailto:user@brew.com)  |user123 |
 
-**📁 Struktur File
+**📁 Struktur File**
 
 app/
 ├── Http/
@@ -146,6 +143,6 @@ routes/
 └── web.php
 
 
-**👨‍💻 Dibuat Dengan
+**👨‍💻 Dibuat Dengan**
 
 Laravel Framework • MySQL • Blade Template • PHP 8.2
