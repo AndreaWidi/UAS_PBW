@@ -1,21 +1,21 @@
-**☕ BrewHouse Aplikasi Web Pemesanan Kopi**
+**BrewHouse Aplikasi Web Pemesanan Kopi**
 
 Aplikasi web pemesanan kopi berbasis Laravel dengan fitur manajemen menu, pemesanan online, dashboard admin, dan autentikasi pengguna.
 
-**📋 Deskripsi Aplikasi**
+**Deskripsi Aplikasi**
 
 BrewHouse adalah aplikasi web sistem pemesanan kopi yang dibangun menggunakan framework Laravel. Aplikasi ini memungkinkan pelanggan untuk melihat menu kopi, memesan secara online, dan melacak status pesanan mereka. Admin dapat mengelola menu, memantau pesanan masuk, dan mengatur pengguna melalui dashboard khusus.
 
 **Fitur Utama**
 
-	•	🔐 Autentikasi — Login & Register dengan validasi input dan role-based access (Admin & Customer)
-	•	☕ Katalog Menu — Menampilkan menu kopi panas, dingin, dan non-kopi dengan deskripsi dan harga
-	•	🛒 Pemesanan — Customer dapat memesan kopi langsung dari menu dengan catatan tambahan
-	•	📋 Riwayat Pesanan — Customer dapat melihat status pesanan (Menunggu, Diproses, Selesai, Dibatal)
-	•	📊 Dashboard Admin — Statistik total pesanan, pendapatan, menu, dan pengguna
-	•	⚙️ CRUD Menu — Admin dapat menambah, mengedit, dan menghapus item menu
-	•	🔄 Kelola Pesanan — Admin dapat mengubah status pesanan secara real-time
-	•	👥 Kelola Pengguna — Admin dapat melihat dan menghapus pengguna
+	•	Autentikasi — Login & Register dengan validasi input dan role-based access (Admin & Customer)
+	•	Katalog Menu — Menampilkan menu kopi panas, dingin, dan non-kopi dengan deskripsi dan harga
+	•	Pemesanan — Customer dapat memesan kopi langsung dari menu dengan catatan tambahan
+	•	Riwayat Pesanan — Customer dapat melihat status pesanan (Menunggu, Diproses, Selesai, Dibatal)
+	•	Dashboard Admin — Statistik total pesanan, pendapatan, menu, dan pengguna
+	•	CRUD Menu — Admin dapat menambah, mengedit, dan menghapus item menu
+	•	Kelola Pesanan — Admin dapat mengubah status pesanan secara real-time
+	•	Kelola Pengguna — Admin dapat melihat dan menghapus pengguna
 
 **Teknologi yang Digunakan**
 
@@ -24,7 +24,7 @@ BrewHouse adalah aplikasi web sistem pemesanan kopi yang dibangun menggunakan fr
 	•	Frontend — Blade Template Engine, HTML, CSS, JavaScript
 	•	Tools — Composer, XAMPP, phpMyAdmin
 
-**🗄 Relasi Database**
+**Relasi Database**
 
 users ──┐
         ├──< orders ──< order_items >── menus
@@ -34,7 +34,7 @@ users ──┐
 	•	orders hasMany order_items
 	•	order_items belongsTo menu
 
-**🚀 Cara Menjalankan di Lokal**
+** Cara Menjalankan di Lokal**
 Prasyarat
 
 	•	PHP >= 8.1
@@ -89,14 +89,14 @@ php artisan serve
 
 Buka browser ke http://localhost:8000
 
-**🔑 Akun Demo**
+** Akun Demo**
 
 |Role    |Email                                  |Password|
 |--------|---------------------------------------|--------|
 |Admin   |[admin@brew.com](mailto:admin@brew.com)|admin123|
 |Customer|[user@brew.com](mailto:user@brew.com)  |user123 |
 
-**📁 Struktur File**
+**Struktur File**
 
 app/
 ├── Http/
