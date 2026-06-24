@@ -89,7 +89,7 @@ php artisan serve
 
 Buka browser ke http://localhost:8000
 
-** Akun Demo**
+**Akun Demo**
 
 |Role    |Email                                  |Password|
 |--------|---------------------------------------|--------|
