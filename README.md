@@ -141,8 +141,3 @@ resources/views/
 
 routes/
 └── web.php
-
-
-**👨‍💻 Dibuat Dengan**
-
-Laravel Framework • MySQL • Blade Template • PHP 8.2
